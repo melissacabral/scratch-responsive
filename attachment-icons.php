@@ -16,12 +16,10 @@ function get_attachment_icons($echo = false){
 		$file_name_array=explode("/",$file_link);
 		$file_name=array_reverse($file_name_array);  //creates an array out of the url and grabs the filename
 		$sAttachmentString .= "<div class='documentIcons'>";
-		$sAttachmentString .= "<a href='$file_link' class='btn btn-large'>";
+		$sAttachmentString .= "<a href='$file_link' class='btn btn-large clearfix'>";
 		//$sAttachmentString .= "<img src='".get_bloginfo('template_directory')."/images/mime/pdf.png'/>";
 		$sAttachmentString .= "<i class='icon-download icon-large'></i>";
-		$sAttachmentString .= "</a>";
-		$sAttachmentString .= "<br />";
-		$sAttachmentString .= "<a href='$file_link'>Download $file_name[0]</a>";
+		$sAttachmentString .= " Download $file_name[0]</a>";
 		$sAttachmentString .= "</div>";
 		}
 	}
@@ -42,9 +40,7 @@ function get_attachment_icons($echo = false){
 		$sAttachmentString .= "<a href='$file_link' class='btn btn-large'>";
 		//$sAttachmentString .= "<img src='".get_bloginfo('template_directory')."/images/mime/flash.png'/>";
 		$sAttachmentString .= "<i class='icon-bolt icon-large'></i>";
-		$sAttachmentString .= "</a>";
-		$sAttachmentString .= "<br />";
-		$sAttachmentString .= "<a href='$file_link'>Download $file_name[0]</a>";
+		$sAttachmentString .= " Download $file_name[0]</a>";
 		$sAttachmentString .= "</div>";
 		}
 	}
@@ -63,12 +59,10 @@ function get_attachment_icons($echo = false){
 		$file_name_array=explode("/",$file_link);
 		$file_name=array_reverse($file_name_array);  //creates an array out of the url and grabs the filename
 		$sAttachmentString .= "<div class='documentIcons'>";
-		$sAttachmentString .= "<a href='$file_link' class='btn btn-large'>";
+		$sAttachmentString .= "<a href='$file_link' class='btn btn-large clearfix'>";
 		//$sAttachmentString .= "<img src='".get_bloginfo('template_directory')."/images/mime/ppt.png'/>";
 		$sAttachmentString .= "<i class='icon-film icon-large'></i>";
-		$sAttachmentString .= "</a>";
-		$sAttachmentString .= "<br />";
-		$sAttachmentString .= "<a href='$file_link'>Download $file_name[0]</a>";
+		$sAttachmentString .= " Download $file_name[0]</a>";
 		$sAttachmentString .= "</div>";
 		}
 	}
@@ -86,12 +80,10 @@ function get_attachment_icons($echo = false){
 		$file_name_array=explode("/",$file_link);
 		$file_name=array_reverse($file_name_array);  //creates an array out of the url and grabs the filename
 		$sAttachmentString .= "<div class='documentIcons'>";
-		$sAttachmentString .= "<a href='$file_link' class='btn btn-large'>";
+		$sAttachmentString .= "<a href='$file_link' class='btn btn-large clearfix'>";
 		//$sAttachmentString .= "<img src='".get_bloginfo('template_directory')."/images/mime/txt.png'/>";
 		$sAttachmentString .= "<i class='icon-file icon-large'></i>";
-		$sAttachmentString .= "</a>";
-		$sAttachmentString .= "<br />";
-		$sAttachmentString .= "<a href='$file_link'>Download $file_name[0]</a>";
+		$sAttachmentString .= " Download $file_name[0]</a>";
 		$sAttachmentString .= "</div>";
 		}
 	}
@@ -110,12 +102,10 @@ function get_attachment_icons($echo = false){
 		$file_name_array=explode("/",$file_link);
 		$file_name=array_reverse($file_name_array);  //creates an array out of the url and grabs the filename
 		$sAttachmentString .= "<div class='documentIcons'>";
-		$sAttachmentString .= "<a href='$file_link' class='btn btn-large'>";
+		$sAttachmentString .= "<a href='$file_link' class='btn btn-large clearfix'>";
 		//$sAttachmentString .= "<img src='".get_bloginfo('template_directory')."/images/mime/zip.png'/>";
 		$sAttachmentString .= "<i class='icon-folder-close icon-large'></i>";
-		$sAttachmentString .= "</a>";
-		$sAttachmentString .= "<br />";
-		$sAttachmentString .= "<a href='$file_link'>Download $file_name[0]</a>";
+		$sAttachmentString .= " Download $file_name[0]</a>";
 		$sAttachmentString .= "</div>";
 		}
 	}
@@ -137,12 +127,10 @@ function get_attachment_icons($echo = false){
 		$file_name_array=explode("/",$file_link);
 		$file_name=array_reverse($file_name_array);  //creates an array out of the url and grabs the filename
 		$sAttachmentString .= "<div class='documentIcons'>";
-		$sAttachmentString .= "<a href='$file_link' class='btn btn-large'>";
+		$sAttachmentString .= "<a href='$file_link' class='btn btn-large clearfix'>";
 		//$sAttachmentString .= "<img src='".get_bloginfo('template_directory')."/images/mime/zip.png'/>";
 		$sAttachmentString .= "<i class='icon-music icon-large'></i>";
-		$sAttachmentString .= "</a>";
-		$sAttachmentString .= "<br />";
-		$sAttachmentString .= "<a href='$file_link'>Download $file_name[0]</a>";
+		$sAttachmentString .= " Download $file_name[0]</a>";
 		$sAttachmentString .= "</div>";
 		endforeach;
 	

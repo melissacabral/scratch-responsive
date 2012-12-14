@@ -46,6 +46,7 @@
 
 <?php wp_head(); ?>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen,projection" />
+
 <!-- Media Queries support for IE < 9 (you can remove this section and the corresponding 'js' directory files if you don't intend to support IE < 9) -->
 <!--[if lt IE 9]>
     <script src="<?php echo get_template_directory_uri(); ?>/scripts/css3-mediaqueries.js"></script>
@@ -55,6 +56,8 @@
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/scripts/selectivizr-min.js"></script>
   <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
 <![endif]-->
+
+
 
 </head>
 

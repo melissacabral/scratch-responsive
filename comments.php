@@ -25,14 +25,14 @@
 <?php if ( have_comments() ) : ?>
 	<h3 id="comments-title">
 	 <?php comments_number( 'no responses', 'one response', '% responses' ); ?> 
-	 to  <em>
+	 to  
 	 <?php the_title(); ?>
-	 </em>
+	 
 	
 	<?php
 	//if commments are open, jump to comment form
 	if(comments_open()){ ?>
-	| <a href="#respond">Leave a Comment</a>
+	| <a href="#respond" class="btn"><i class="icon-comments-alt icon-large"></i> Leave a Comment</a>
 	<?php } //end if comments open ?>
 	</h3>
 			
